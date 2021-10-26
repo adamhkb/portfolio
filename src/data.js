@@ -1,7 +1,7 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "FIFA 22 Data Visualation Web App",
+      title: "FIFA 22 Data Visualisation Web App",
       img:
         "assets/fifa22.png",
     },
