@@ -11,14 +11,14 @@ export default function Experience() {
             <li>Researched existing papers on computer vision, enhanced existing open-source models and incorporated
             novel techniques and created new algorithms from scratch.</li>
             <li>Performed statistical analysis and documented the impact of machine learning models.</li>
-            <li>Built and Developed a Facial Recognition System</li> 
+            <li>Built and Developed a Facial Recognition System.</li> 
         </p>
         <span>&nbsp;</span>  
         <h1>Education</h1>
         <h2><img src="assets/kcl.png" alt=""/>  <u>King's College London - London, UK (Sept 2016 - June 2019)</u></h2>
         <h2><u>BEng Electronic Engineering with Management</u></h2>
         <p>
-            <li>Achieved a 2:1 overall grade.</li>
+            <li>Achieved Upper Second-Class Degree.</li>
             <li>Wrote a dissertation on 'Eye Contact Detection using Convolutional Neural Networks'.</li>
             <li>Key course modules:</li>
                 <ul>
@@ -31,7 +31,6 @@ export default function Experience() {
                     <li>Database Systems</li>
                     </p>
                 </ul>
-            
         </p>
     </div>
     );
