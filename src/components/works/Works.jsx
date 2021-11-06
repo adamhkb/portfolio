@@ -1,12 +1,24 @@
 import { useState } from "react";
 import "./works.scss";
-import {SportsSoccer, Mood, Search, Visibility} from "@material-ui/icons";
+import {MonetizationOn, SportsSoccer, Mood, Search, Visibility} from "@material-ui/icons";
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
+      icon: <MonetizationOn/>,
+      title: "Cryptocurrency Discord Bot",
+      desc:
+      "Build and deployed a cryptocurrency discord bot to find out the price of any supported cryptocurrency and to display a time series graph of the supported cryptocurrency.",
+      img:
+        "assets/cryptobot1.png",
+      // link:
+      //   "https://fifa22.herokuapp.com/",
+      tech: "Python, Pandas, CoinGecko API, Plotly."
+    },
+    {
+      id: "2",
       icon: <SportsSoccer/>,
       title: "FIFA 22 Data Visualisation Web App",
       desc:
@@ -18,7 +30,7 @@ export default function Works() {
       tech: "Python, Pandas, NumPy, Streamlit, Plotly, Matplotlib, Mplsoccer."
     },
     {
-      id: "2",
+      id: "3",
       icon: <Mood/>,
       title: "Smart Access System",
       desc:
@@ -30,7 +42,7 @@ export default function Works() {
 
     },
     {
-      id: "3",
+      id: "4",
       icon: <Search/>,
       title: "Sarcasm Detector in Headlines",
       desc:
@@ -43,7 +55,7 @@ export default function Works() {
 
     },
     {
-      id: "3",
+      id: "5",
       icon: <Visibility/>,
       title: "Eye Contact Detector",
       desc:

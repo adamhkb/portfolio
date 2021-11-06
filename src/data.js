@@ -1,34 +1,34 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "FIFA 22 Data Visualisation Web App",
+      title: "Cryptocurrency Discord Bot",
+      img:
+        "assets/cryptobot1.png",
+    },
+    {
+      id: 2,
+      title: "FIFA 22 Data Visualation Web App",
       img:
         "assets/fifa22.png",
     },
     {
-      id: 2,
+      id: 3,
       title: "Smart Access System",
       img:
         "assets/smartaccess.png",
     },
     {
-      id: 3,
+      id: 4,
       title: "Sarcasm Detector in Headlines",
       img:
         "assets/sarcasmdetector.png",
     },
     {
-      id: 4,
+      id: 5,
       title: "Eye Contact Detection",
       img:
         "assets/eyefig.png",
     },
-    // {
-    //   id: 5,
-    //   title: "Hero Web Design",
-    //   img:
-    //     "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    // },
     // {
     //   id: 6,
     //   title: "Banking App",

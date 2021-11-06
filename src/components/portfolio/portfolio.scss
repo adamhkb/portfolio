@@ -7,7 +7,7 @@
   align-items: center;
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
 
     @include mobile{
       font-size: 20px;
@@ -39,7 +39,7 @@
     }
 
     .item {
-      width: 320px;
+      width: 250px;
       height: 250px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
@@ -59,7 +59,8 @@
 
       h3 {
         position: absolute;
-        font-size: 20px;
+        font-size: 25px;
+
       }
 
       img {
