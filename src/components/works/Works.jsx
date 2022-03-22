@@ -1,12 +1,24 @@
 import { useState } from "react";
 import "./works.scss";
-import {MonetizationOn, SportsSoccer, Mood, Search, Visibility} from "@material-ui/icons";
+import {SportsEsports, MonetizationOn, SportsSoccer, Mood, Search, Visibility} from "@material-ui/icons";
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
+      icon: <SportsEsports/>,
+      title: "Space Invaders Clone",
+      desc:
+      "Developed a Space Invader clone, where the aim of the game is to defeat wave after wave of descending aliens with a horizontally moving laser.",
+      img:
+        "assets/spaceinvader.png",
+      // link:
+      //   "https://fifa22.herokuapp.com/",
+      tech: "Python, Pygame"
+    },
+    {
+      id: "2",
       icon: <MonetizationOn/>,
       title: "Cryptocurrency Discord Bot",
       desc:
@@ -18,7 +30,7 @@ export default function Works() {
       tech: "Python, Pandas, CoinGecko API, Plotly."
     },
     {
-      id: "2",
+      id: "3",
       icon: <SportsSoccer/>,
       title: "FIFA 22 Data Visualisation Web App",
       desc:
@@ -30,7 +42,7 @@ export default function Works() {
       tech: "Python, Pandas, NumPy, Streamlit, Plotly, Matplotlib, Mplsoccer."
     },
     {
-      id: "3",
+      id: "4",
       icon: <Mood/>,
       title: "Smart Access System",
       desc:
@@ -42,7 +54,7 @@ export default function Works() {
 
     },
     {
-      id: "4",
+      id: "5",
       icon: <Search/>,
       title: "Sarcasm Detector in Headlines",
       desc:
@@ -55,7 +67,7 @@ export default function Works() {
 
     },
     {
-      id: "5",
+      id: "6",
       icon: <Visibility/>,
       title: "Eye Contact Detector",
       desc:

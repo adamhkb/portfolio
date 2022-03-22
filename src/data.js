@@ -1,30 +1,36 @@
 export const featuredPortfolio = [
     {
       id: 1,
+      title: "Space Invaders Clone",
+      img:
+        "assets/spaceinvader.png",
+    },
+    {
+      id: 2,
       title: "Cryptocurrency Discord Bot",
       img:
         "assets/cryptobot1.png",
     },
     {
-      id: 2,
+      id: 3,
       title: "FIFA 22 Data Visualation Web App",
       img:
         "assets/fifa22.png",
     },
     {
-      id: 3,
+      id: 4,
       title: "Smart Access System",
       img:
         "assets/smartaccess.png",
     },
     {
-      id: 4,
+      id: 5,
       title: "Sarcasm Detector in Headlines",
       img:
         "assets/sarcasmdetector.png",
     },
     {
-      id: 5,
+      id: 6,
       title: "Eye Contact Detection",
       img:
         "assets/eyefig.png",

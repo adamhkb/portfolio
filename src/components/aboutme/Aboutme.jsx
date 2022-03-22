@@ -10,7 +10,7 @@ export default function Aboutme() {
                         <span>&nbsp;</span>  
                         <p>
                         I'm an Electronic Engineering with Management graduate from King’s College London (2016 - 2019), 
-                        where I studied the hardware and software sides 
+                        where I studied the hardware and software elements 
                         of engineering, as well as general management and my main passion is machine learning.
                         </p>
                         <span>&nbsp;</span>         
