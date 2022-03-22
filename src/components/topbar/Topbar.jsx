@@ -35,6 +35,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <Twitter className="icon" />
               </a>
           </div>
+          <div className="itemContainer">
+          Last Updated: 22 March 2022
+          </div>
         </div>
         <div className="right">
           <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
