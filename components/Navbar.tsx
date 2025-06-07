@@ -31,7 +31,7 @@ export default function Navbar() {
       <Toolbar sx={{ justifyContent: 'space-between' }}>
         {/* Left: Name / Logo */}
 
-          <Button component={Link} href="/main" color="inherit">
+          <Button component={Link} href="/" color="inherit">
         <Typography variant="h6" fontWeight="bold">
           AHKB
         </Typography>
@@ -48,8 +48,8 @@ export default function Navbar() {
 
         {/* Desktop Nav (hidden on small screens) */}
         <Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center', gap: 3 }}>
-          <Button component={Link} href="/main" color="inherit">About</Button>
-          <Button component={Link} href="/" color="inherit">Work</Button>
+          <Button component={Link} href="/" color="inherit">About</Button>
+          <Button component={Link} href="/work" color="inherit">Work</Button>
 
           <Divider orientation="vertical" flexItem />
 
@@ -70,8 +70,8 @@ export default function Navbar() {
         <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer}>
           <List>
             {[
-              { text: 'About', href: '/main' },
-              { text: 'Work', href: '/' },
+              { text: 'About', href: '/' },
+              { text: 'Work', href: '/work' },
               { text: 'Contact', href: '/contact' },
             ].map((item, idx) => (
               <ListItem key={idx} disablePadding>
