@@ -15,7 +15,7 @@ export default function AboutSection() {
         </Typography>
 
         <Typography paragraph>
-          I hold a BEng in Electronic Engineering with Management from King’s College London (2016–2019), where I studied both hardware and software aspects of engineering, as well as core business management principles. My passion for machine learning and software engineering grew during my dissertation project on <strong>Eye Contact Detection using CNNs</strong>, which involved Python, TensorFlow, Keras, OpenCV, and various data visualization tools.
+          I hold a BEng in Electronic Engineering with Management from King’s College London (2016–2019), where I studied both hardware and software aspects of engineering, as well as core business management principles. My passion for machine learning and software engineering grew during my dissertation project on Eye Contact Detection using CNNs, which involved Python, TensorFlow, Keras, OpenCV, and various data visualization tools.
         </Typography>
 
         <Typography paragraph>
