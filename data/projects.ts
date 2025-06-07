@@ -159,11 +159,11 @@ The system also supports cloud-synced dashboards to manage logs, users, and faci
     github: '',
     live: '',
     description: 'A CNN model to detect whether someone is making eye contact.',  shortDescription: 'A deep learning project that detects whether a person is making eye contact with the camera using CNNs in TensorFlow/Keras.',
-  longDescription: `This is a retro-style Space Invader clone developed using Python and the Pygame library. The game features classic arcade mechanics: player-controlled movement, enemy waves, bullet shooting, and collision detection.
+  longDescription: `This was my final year dissertation at King’s College London, where I developed a Convolutional Neural Network (CNN) model using Python, TensorFlow, and Keras to detect eye contact in images. The model outputs a binary classification indicating whether the subject is making eye contact with the camera.
 
-The goal is to shoot down incoming alien invaders while avoiding their attacks. It includes sound effects, score tracking, and increasing difficulty with each wave, delivering an old-school gaming experience rebuilt from scratch using Pygame.
+The system was trained on annotated facial image datasets with eye contact labels, and involved preprocessing techniques such as face detection, eye alignment, and normalization. The project aimed to contribute to real-time human-computer interaction systems, with potential applications in accessibility tools, user engagement analysis, and behavioral studies.
 
-Ideal for showcasing 2D game development fundamentals like animation, input handling, sprite control, and game loop design in Python.`,
+Throughout the project, I explored deep learning architectures, fine-tuned hyperparameters, evaluated model performance using precision and recall metrics, and documented my findings in a comprehensive research paper.`,
 },
 ];
 
