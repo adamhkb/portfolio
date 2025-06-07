@@ -27,8 +27,7 @@ export default function AboutSection() {
         </Typography>
 
         <Typography paragraph>
-          Outside of work, I’m a huge sports fan — especially football and boxing. I support Manchester United, play padel and 5-a-side football regularly, and enjoy following the latest fights and matchdays. I also like to game casually and build side projects like a World Cup match predictor and a Pokémon-themed frontend to stay sharp and have fun while learning.
-        </Typography>
+Outside of work, I’m a huge sports fan — especially football and boxing. I support Manchester United, play padel and 5-a-side football regularly, and enjoy following the latest fights and matchdays. I also like to game casually and build side projects that involve sports.        </Typography>
       </Box>
     </Box>
   );
