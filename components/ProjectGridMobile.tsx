@@ -19,9 +19,8 @@ export default function ProjectGridMobile({
       sx={{ display: { xs: 'flex', md: 'none' } }}
     >
       {projects.map((project) => (
-        <Grid item xs={12} key={project.id}>
+        <Grid key={project.id}>
             <ProjectCardMobile project={project} onClick={() => onProjectClick(project)} />
-
         </Grid>
       ))}
     </Grid>

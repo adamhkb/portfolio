@@ -18,7 +18,7 @@ export default function ProjectGridDesktop({
       sx={{ display: { xs: 'none', md: 'flex' } }}
     >
       {projects.map((project) => (
-        <Grid item md={6} key={project.id}>
+<Grid key={project.id}>
           <ProjectCard
             project={project}
             onClick={() => onProjectClick(project)}
