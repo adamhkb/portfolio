@@ -26,7 +26,7 @@ Any team would be lucky to have Adam. He raises the bar not just for the codebas
             - Ulyana Kausharova, Ex–Product Designer at Queen's Lane Consultants
           </Typography>
           <Typography variant="caption" color="text.secondary">
-            Worked with Adam but on diffewrent teams
+            Worked with Adam but on different teams
           </Typography>
           <Divider sx={{ mt: 2 }} />
         </Box>
