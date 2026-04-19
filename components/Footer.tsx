@@ -19,7 +19,7 @@ export default function Footer() {
       }}
     >
       <Typography variant="body2" sx={{ mb: 1 }}>
-        Last update: 2nd November 2025
+        Last update: 19th April 2026
       </Typography>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 4, flexWrap: 'wrap' }}>
