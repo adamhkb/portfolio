@@ -1,5 +1,21 @@
 export const projects = [
   {
+    id: 5,
+    title: 'World Cup Outcome Predictor',
+    tech: ['Python', 'Streamlit', 'Scikit-learn', 'Pandas'],
+    cardImage: '/project-images/world-cup-outcome-predictor.png',
+    modalImage: '/project-images/world-cup-outcome-predictor.png',
+    github: 'https://github.com/adamhkb/fifa-world-cup-outcome-predictor',
+    live: 'https://fifa-world-cup-outcome-predictor.streamlit.app/',
+    shortDescription:
+      'A Streamlit app that predicts match outcomes and simulates World Cup tournament paths using probabilistic ML and Monte Carlo simulation.',
+    longDescription: `World Cup Outcome Predictor is a production-style Streamlit app for forecasting international football outcomes and simulating full tournament paths from group stage to final.
+
+It supports single-match predictions (Home/Draw/Away) with calibrated probability outputs, and a tournament simulator that runs repeated Monte Carlo simulations to estimate title/final/semi probabilities and generate example bracket paths.
+
+Under the hood, the model is trained in a leakage-aware, chronological setup and uses team form features plus external strength signals (e.g. FIFA rankings merged using the latest ranking available on or before match date). The result is a transparent, demo-ready analytics tool focused on scenario exploration rather than deterministic picks.`,
+  },
+  {
     id: 0,
     title: 'VAR in the Premier League Dashboard',
     tech: ['Python', 'Streamlit', 'Plotly', 'Selenium', 'Pandas', 'Scipy'],
@@ -80,18 +96,6 @@ This portfolio reflects my frontend skillset while also demonstrating my ability
 The app fetches data from the open-source PokéAPI and renders it dynamically using React components. It demonstrates clean component structure, API data handling, state management, and simple responsive styling.
 
 Ideal for beginners learning React, API integration, and building user-friendly data-driven UIs.`,
-  },
-  {
-    id: 5,
-    title: 'World Cup 2022 Predictor',
-    tech: ['Python', 'Jupyter', 'Scikit-learn'],
-    cardImage: '/project-images/wc-predictor.png',
-    github: '',
-    live: '/projects/worldcup-predictor',
-    shortDescription: 'Machine learning-based predictor for World Cup 2022 outcomes, built with Python and Jupyter Notebook.',
-    longDescription: `This project is a machine learning-driven predictor for World Cup 2022 match outcomes, built entirely in a Jupyter Notebook using Python and Scikit-learn. It processes historical match data to simulate tournament progression and predict likely winners at each stage.
-  
-The predictor uses logistic regression and other ML models to classify match results based on past performance, goals scored, and team strength. Visual elements and interactive brackets help illustrate potential tournament outcomes and model performance. Ideal for football fans and data science enthusiasts interested in sports analytics.`,
   },
   {
     id: 6,
