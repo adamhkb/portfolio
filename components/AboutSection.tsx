@@ -11,23 +11,28 @@ export default function AboutSection() {
 
       <Box sx={{ typography: 'body1', color: 'text.primary', lineHeight: 1.8 }}>
         <Typography paragraph>
-          I’m Adam Kamarul Bahrin, a full-stack engineer based in London & Kuala Lumpur. I build software that automates workflows, improves user experience, and unlocks real-world value using machine learning and computer vision technologies.
+          {"I'm Adam \u2014 a full-stack software engineer based in London with a background in electronic engineering and a deep interest in machine learning, AI agents, and sports analytics."}
         </Typography>
 
         <Typography paragraph>
-          I hold a BEng in Electronic Engineering with Management from King’s College London (2016–2019), where I studied both hardware and software aspects of engineering, as well as core business management principles. My passion for machine learning and software engineering grew during my dissertation project on Eye Contact Detection using CNNs, which involved Python, TensorFlow, Keras, OpenCV, and various data visualization tools.
+          {"I graduated from King\u2019s College London with a BEng in Electronic Engineering with Management, where I first got into machine learning through my dissertation on real-time eye contact detection using convolutional neural networks. That project set the direction for everything I\u2019ve built since."}
         </Typography>
 
         <Typography paragraph>
-          I’ve worked across startups and consulting firms, bridging backend architecture with frontend polish — primarily using Node.js, React, Python, PostgreSQL, and AWS. I enjoy solving hard problems and building internal tools that simplify work for others.
+          {"Professionally, I\u2019ve spent the last four years leading engineering at Queen\u2019s Lane Consultants, where I build the internal platforms that power the company\u2019s R&D tax relief process. The work spans the full stack \u2014 React frontends, Node.js and Python backends, PostgreSQL databases, Redis queues, and AWS infrastructure \u2014 with a focus on automating complex financial workflows that used to be done manually."}
         </Typography>
 
         <Typography paragraph>
-          At my current company, I've developed tools that help clients easily and securely claim R&D tax relief. These tools combine technical depth with user-friendly design, allowing non-technical users to benefit from powerful automation.
+          {"On the side, I\u2019m drawn to projects where data meets sport. I built GoalGPT, an autonomous AI agent that competes in the Stair AI World Cup Agent Arena \u2014 a live competition where agents predict FIFA World Cup 2026 match outcomes and place real bets on Polymarket. It combines a machine learning model trained on over 49,000 international football matches with LLM reasoning to make predictions and execute trades automatically. It\u2019s the kind of project that brings together everything I enjoy: engineering, data, and football."}
         </Typography>
 
         <Typography paragraph>
-Outside of work, I’m a huge sports fan — especially football and boxing. I support Manchester United, play padel and 5-a-side football regularly, and enjoy following the latest fights and matchdays. I also like to game casually and build side projects that involve sports.        </Typography>
+          {"I\u2019ve also built dashboards analysing six seasons of VAR decisions in the Premier League, a geolocation app that finds sunny restaurants using real-time shade detection, and various tools exploring football data \u2014 from FIFA player stats to World Cup tournament simulation."}
+        </Typography>
+
+        <Typography paragraph>
+          {"When I\u2019m not coding, I\u2019m usually watching football or boxing, playing padel or five-a-side, or keeping up with the latest matchdays and fight nights. I support Manchester United."}
+        </Typography>
       </Box>
     </Box>
   );

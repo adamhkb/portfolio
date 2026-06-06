@@ -37,6 +37,19 @@ const techGroups = [
       { name: 'Keras', icon: '/icons/keras-original.svg' },
       { name: 'PyTorch', icon: '/icons/pytorch-original.svg' },
       { name: 'Scikit-learn', icon: '/icons/scikitlearn-original.svg' },
+      { name: 'Pandas', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg' },
+      { name: 'NumPy', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg' },
+      { name: 'OpenAI', icon: '/icons/openai.svg' },
+      { name: 'Anthropic', icon: '/icons/anthropic.svg' },
+    ],
+  },
+  {
+    title: 'Data & Visualization',
+    skills: [
+      { name: 'Streamlit', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg' },
+      { name: 'Plotly', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg' },
+      { name: 'Selenium', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg' },
+      { name: 'OpenCV', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg' },
     ],
   },
   {
@@ -45,7 +58,9 @@ const techGroups = [
       { name: 'AWS', icon: '/icons/icons8-aws.svg' },
       { name: 'Google Cloud Platform', icon: '/icons/googlecloud-original.svg' },
       { name: 'Docker', icon: '/icons/icons8-docker.svg' },
-      { name: 'Heroku', icon: '/icons/icons8-heroku.svg' }
+      { name: 'Vercel', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg' },
+      { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg' },
+      { name: 'Heroku', icon: '/icons/icons8-heroku.svg' },
     ],
   },
 ];
