@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Typography, Divider } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -19,7 +19,7 @@ export default function Footer() {
       }}
     >
       <Typography variant="body2" sx={{ mb: 1 }}>
-        Last update: 19th April 2026
+        Last update: 6th June 2026
       </Typography>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 4, flexWrap: 'wrap' }}>

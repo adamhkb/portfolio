@@ -1,5 +1,41 @@
 export const projects = [
   {
+    id: 13,
+    title: '2048clone — C++ Terminal Game',
+    tech: ['C++', 'CMake'],
+    cardImage: '/project-images/2048clone.png',
+    modalImage: '/project-images/2048clone.png',
+    github: 'https://github.com/adamhkb/2048clone',
+    live: '',
+    shortDescription:
+      'A C++ terminal clone of 2048 with real-time WASD/arrow controls, ANSI rendering, and a minimal test binary.',
+    longDescription: `2048clone is a from-scratch C++ implementation of the classic 2048 puzzle, built as a terminal application with a focus on clean game logic and UX.
+
+It supports real-time key input (WASD + arrow keys), a clear ANSI-rendered UI showing score and moves, and core 2048 mechanics (single-merge-per-move, score accumulation, and win/loss detection).
+
+The codebase is structured into small modules (game rules, input handling, and rendering) and includes a lightweight self-contained test runner to validate merge/move edge cases.`,
+  },
+//   {
+//     id: 12,
+//     title: 'GoalGPT — Stair AI World Cup Agent Arena',
+//     tech: ['Python', 'AWS', 'Scikit-learn', 'Pandas', 'Claude AI'],
+//     cardImage: '/project-images/goalgpt-arena.png',
+//     modalImage: '/project-images/goalgpt-arena.png',
+//     github: 'https://github.com/adamhkb/goalgpt_arena',
+//     live: '',
+//     shortDescription:
+//       'An autonomous prediction-market agent for the Polymarket AI Agent Competition, combining ML and LLM reasoning to bet on FIFA World Cup 2026 matches.',
+//     longDescription: `GoalGPT is an autonomous AI agent built for the Stair AI World Cup Agent Arena — a live competition where agents predict FIFA World Cup 2026 match outcomes and place real bets on Polymarket.
+
+// The agent runs a multi-step pipeline: it fetches pre-match data from Sportmonks (odds, xG, model predictions), live market prices from Polymarket, and historical tournament priors from Supabase. Each data source is "digested" by Claude into structured JSON signals using a fetch-then-digest pattern.
+
+// A RandomForest ML model trained on 49,000+ international matches (with 35 engineered features including Elo ratings, FIFA rankings, and rolling form) provides a quantitative baseline. The LLM then refines these probabilities with qualitative context before making a final prediction — independent of market prices to avoid anchoring bias.
+
+// The agent compares its prediction to the live Polymarket odds, calculates edge, and places BUY YES orders through the Arena API when it identifies value. Every step is recorded in a tamper-evident reasoning ledger (schema v0.3) submitted to the Arena for scoring.
+
+// Key technical highlights: LLM fallback chain (Anthropic Bedrock → direct Anthropic → OpenAI), leakage-aware chronological ML training (post-2022 World Cup only), auto-refreshing FIFA rankings from the official FIFA API, SSL-hardened API client, and a configurable CLI with dry-run mode and bet size caps.`,
+//   },
+  {
     id: 5,
     title: 'World Cup Outcome Predictor',
     tech: ['Python', 'Streamlit', 'Scikit-learn', 'Pandas'],
@@ -182,4 +218,4 @@ Throughout the project, I explored deep learning architectures, fine-tuned hyper
 ];
 
 
-export const techFilters = ['All', 'AWS', 'Express', 'Flask', 'MongoDB', 'MySQL', 'Node', 'OpenCV', 'Pandas', 'PostgreSQL', 'Pygame', 'Python', 'React', 'Redis', 'Scipy', 'Selenium', 'Streamlit', 'TensorFlow', 'TypeScript']
+export const techFilters = ['All', 'AWS', 'C++', 'CMake', 'Claude AI', 'Express', 'Flask', 'MongoDB', 'MySQL', 'Node', 'OpenCV', 'Pandas', 'PostgreSQL', 'Pygame', 'Python', 'React', 'Redis', 'Scikit-learn', 'Scipy', 'Selenium', 'Streamlit', 'TensorFlow', 'TypeScript']
