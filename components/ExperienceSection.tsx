@@ -9,15 +9,16 @@ const experiences = [
     location: 'London, United Kingdom',
     date: 'March 2022 – Present',
     logo: '/images/QLCLogo.webp',
-    description: `At QLC, I lead full-stack development for internal tools and client-facing portals that automate the R&D tax credit claim process. My role spans system design, backend engineering, and cross-functional collaboration with product and ops teams.`,
-    bulletpoints: `- Led development of client/admin portals using the MERN stack and Prisma ORM, with a strong focus on performance and usability.
-- Engineered a RESTful API with Node.js (Express.js, Fastify) and Python to automate R&D tax claims, including XML integration with HMRC and OCR-based CT600 form extraction.
-- Migrated database infrastructure from MongoDB to PostgreSQL, improving query efficiency and enabling relational data integrity via Prisma.
-- Implemented Redis-based task queuing to handle async XML submission, status tracking, and retry logic across environments.
-- Built automated document/form generators, integrating web scraping, templating engines (EJS), and data pipelines to reduce manual entry by ~80%.
-- Designed a secure file upload system using AWS SQS + S3 + a local file server to automate ingestion, processing, and monitoring of submission files.
-- Collaborated with designers and product leads to continuously improve UX, accessibility, and frontend performance using React, TypeScript, and Tailwind CSS.
-- Contributed to CI/CD pipelines and deployment workflows using GitHub Actions and Docker, ensuring stable releases and rollback capabilities.
+    description: `At QLC, I designed, built, and launched TaxEngine \u2014 a multi-tenant B2B SaaS platform that automates R&D tax credit claim processing and HMRC submission for professional advisory firms. What started as internal tooling evolved into a standalone product used by 50+ chartered accountants to process 3,000+ claims on behalf of 1,500+ companies.`,
+    bulletpoints: `- Architected and built TaxEngine across three codebases: a Next.js SaaS platform, a Node.js/Express calculation microservice, and a marketing site.
+- Built the full CT600 claim lifecycle: PDF upload \u2192 OCR (AWS Textract) \u2192 tax calculation \u2192 document generation (pdf-lib, iXBRL) \u2192 e-signature (DocuSign/PandaDoc) \u2192 live HMRC Government Gateway submission.
+- Designed multi-tenant data isolation with Supabase Auth, Prisma ORM, and PostgreSQL \u2014 each firm gets its own users, roles, clients, HMRC credentials, and audit trails.
+- Engineered the CT600 calculation engine handling R&D relief (SME/RDEC), marginal relief, loss carry-forward, and HMRC business validation rules.
+- Built automated document generators producing CT600 PDFs, iXBRL/XHTML tax computations, and amendment summaries using pdf-lib and Handlebars templates.
+- Integrated with HMRC\u2019s XML Transaction Engine for live CT600 submission with polling, Companies House API for company lookup, and DocuSign/PandaDoc for e-signatures.
+- Designed a Numbers Ingest API allowing partner systems to push R&D expenditure data directly into the platform.
+- Migrated the original database infrastructure from MongoDB to PostgreSQL, improving query efficiency and enabling relational data integrity via Prisma.
+- Built CI/CD pipelines with GitHub Actions, Vitest testing (60% coverage threshold), and a fixture harness for regression-testing tax calculations.
     `,
   },
   {
